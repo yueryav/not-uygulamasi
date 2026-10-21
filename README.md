@@ -1,0 +1,1 @@
+not-uygulaması, Bilgisayar mühendisliği introduction dersi için ödev.
