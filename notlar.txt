@@ -3,3 +3,9 @@ sort names.txt | dosya içini alfabetik olarak sıralayıp çıktısını verir
 uniq file.txt | tekrar eden satırları çıkartarak içeriğin çıktısını verir
 cut -d: -f1 /etc/passwd | içeriği ":" baz alarak ayırır ve ilk sütundaki bilgilerin çıktısını verir
 awk '{print $1}' file.txt | metni ayırıp ilk sütunun çıktısını verir
+
+git init | yeni bir repo tanımlar
+git status | güncel repoda nelerin değiştiğini gösterir
+git add file.txt | bir dosyayı staging alanına alır
+git commit -m "Add week 5 notes" | stagingdeki değişen dosyaları açıklamasıyla kaydeder
+git diff | son committen itibaren nelerin değiştiğini gösterir
