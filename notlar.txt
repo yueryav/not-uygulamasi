@@ -1,0 +1,5 @@
+wc file.txt | satır, kelime ve karakter sayısının çıktısını verir
+sort names.txt | dosya içini alfabetik olarak sıralayıp çıktısını verir
+uniq file.txt | tekrar eden satırları çıkartarak içeriğin çıktısını verir
+cut -d: -f1 /etc/passwd | içeriği ":" baz alarak ayırır ve ilk sütundaki bilgilerin çıktısını verir
+awk '{print $1}' file.txt | metni ayırıp ilk sütunun çıktısını verir
